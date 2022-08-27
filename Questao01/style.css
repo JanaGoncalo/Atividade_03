@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(to right, #bc4e9c, #f80759);;
+}
+
+table {
+  min-width: 350px;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  padding: 1;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 100px auto;
+}
+
+td {
+  width: 100%;
+  padding: 10px;
+}
