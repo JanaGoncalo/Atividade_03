@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<title>Questões - Processo Seletivo C3C</title>
+</head>
+<table>
+    <tr>
+      <td>
+<body>
+<form name="form">
+  <h3>Questão 01 - Tipos de Triângulo</h3>
+ <label>
+      Digite o valor do lado A:
+      <input name="ladoa" id="ladoa" placeholder="a" type="number" />
+    </label>
+    <br />
+    <label>
+      Digite o valor do lado B:
+      <input name="ladob" id="ladob" placeholder="b" type="number" />
+    </label>
+    <br />
+    <label>
+      Digite o valor do lado C:
+      <input name="ladoc" id="ladoc" placeholder="c" type="number" />
+    </label>
+    <br />
+    <label>
+     <br />
+      <input type="text" name="saida" size="17" disabled>
+     <br />
+     <br />
+      <input type="button" value="Calcular" onClick="triangulo()">
+      <br />
+      <br />
+     </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <body>
+          <h3>Questão 02 - Formula de baskara</h3>
+            <p>Digite os 3 parâmetros:</p>
+            <label>A:
+            <input type="number" name="A" id="A" placeholder="ax2" />
+          </label>
+          <br />
+          <br />
+          <label> B:
+            <input type="number" name="B" id="B" placeholder="bx" />
+            </label>
+            <br />
+            <br />
+            <label>C:
+            <input type="number" name="C" id="C" placeholder="C" />
+            </label>
+            <br />
+            <br />
+            <input type="button" value="Calcular" onclick="Formula()" />
+            <h3>
+              <div id="result"></div>
+            </h3>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td>
+        <h3>Questão 03 - Sistema de Notas</h3>
+        <label>Nota:
+        <input
+          type="number"
+          name="Nota"
+          id="Nota"
+          placeholder="Digite sua nota entre 0 e 100"
+          min="0"
+          max="100"
+          style="width: 12rem"
+        />
+        <br />
+        <br />
+        <input type="button" value="Consultar nota" onclick="Consultar()" />
+        <p>Resultado:</p>
+        <div id="resul"></div>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <body>
+          <h3>Questão 04 - LuidyMoura</h3>
+          <p></p>
+          <input
+            id="tamanhoArray"
+            type="number"
+            placeholder="Insira um valor inteiro"
+          />
+          <br />
+          <br />
+          <input type="button" id="contArray" value="Contar" />
+          <h2 id="resposta"></h2>
+      </td>
+    </tr>
+  </table>
+
+      <script src="script.js"></script>
+    </form>
+   </body>
+</html>
